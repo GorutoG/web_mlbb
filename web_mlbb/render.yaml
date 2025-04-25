@@ -3,7 +3,7 @@ services:
     name: mlbb-app
     env: python
     buildCommand: ""
-    startCommand: reflex run --env production
+    startCommand: reflex run --env prod
     plan: free
     autoDeploy: true
   
