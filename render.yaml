@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mlbb-app
+    env: python
+    buildCommand: ""
+    startCommand: reflex run --env production
+    plan: free
+    autoDeploy: true
+  
